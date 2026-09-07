@@ -3,12 +3,34 @@
 .claude/
 .*-ai/
 
-# R session history (cualquier carpeta)
+# R session history and artifacts
 **/.Rhistory
+**/.RData
+**/.Ruserdata
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Knit / rendered leftovers
+*.html
 
 # Figuras generadas
 **/*.png
 
+# renv: se versiona renv.lock, renv/activate.R y renv/settings.json
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+
 # Local-only folders
 Codex/
 UNAM-analysis/
+
+# Próximos episodios
+Episodio 07/

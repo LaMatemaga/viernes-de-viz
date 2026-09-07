@@ -12,7 +12,7 @@ Desde esta carpeta:
 source("main.R")
 ```
 
-Las figuras nuevas se guardan en `output/`. Las tipografías (Fraunces, Inter y JetBrains Mono) deben estar en esta carpeta o en la raíz del repositorio.
+Las figuras nuevas se guardan en `output/`. Las tipografías (Fraunces, Inter y JetBrains Mono) están en `fonts/` en la raíz del repositorio.
 
 ## Datos
 

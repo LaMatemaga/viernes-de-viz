@@ -10,10 +10,12 @@
 font_file <- "Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf"
 font_root <- if (file.exists(font_file)) {
   "."
+} else if (file.exists(file.path("..", "fonts", font_file))) {
+  file.path("..", "fonts")
 } else if (file.exists(file.path("..", font_file))) {
   ".."
 } else {
-  stop("No se encontraron los archivos de tipografía en la carpeta del proyecto.")
+  stop("No se encontraron los archivos de tipografía en fonts/ ni en la carpeta del proyecto.")
 }
 
 # Se registran con un alias propio, no con el nombre real de la familia:
