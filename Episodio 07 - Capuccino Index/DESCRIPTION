@@ -1,0 +1,19 @@
+Package: episodio07
+Type: Project
+Title: Viernes de Visualizaciones — Episodio 07
+Version: 0.0.0.9000
+Description: Índice Cappuccino 2026 (James Hoffmann / TidyTuesday). Los paquetes se restauran con renv.
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    ggtext,
+    ggridges,
+    maps,
+    patchwork,
+    ragg,
+    scales,
+    svglite,
+    systemfonts,
+    tidytuesdayR,
+    tidyverse,
+    waffle

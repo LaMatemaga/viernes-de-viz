@@ -2,11 +2,13 @@
 .agents/
 .claude/
 .*-ai/
+skills-lock.json
 
 # R session history and artifacts
 **/.Rhistory
 **/.RData
 **/.Ruserdata
+**/.Renviron
 .Rproj.user/
 
 # OS
@@ -18,19 +20,25 @@ Thumbs.db
 
 # Figuras generadas
 **/*.png
+**/*.svg
 
-# renv: se versiona renv.lock, renv/activate.R y renv/settings.json
-renv/library/
-renv/local/
-renv/cellar/
-renv/lock/
-renv/python/
-renv/sandbox/
-renv/staging/
+# Armado del reporte en Illustrator
+**/*.ai
+**/*.pdf
+
+# renv: se versiona renv.lock, .Rprofile, renv/activate.R y renv/settings.json.
+# Lo pesado ya lo ignora el renv/.gitignore que renv genera en cada proyecto.
+**/renv/library/
+**/renv/local/
+**/renv/cellar/
+**/renv/lock/
+**/renv/python/
+**/renv/sandbox/
+**/renv/staging/
 
 # Local-only folders
 Codex/
 UNAM-analysis/
 
 # Próximos episodios
-Episodio 07/
+# Episodio 08/

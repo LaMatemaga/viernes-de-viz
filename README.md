@@ -6,12 +6,16 @@ Cada carpeta `Episodio …` es un proyecto de R independiente. Corre el script d
 
 ## Episodios
 
-| Episodio | Tema | TidyTuesday |
-|---|---|---|
-| [03 — UFC](Episodio%2003%20-%20UFC/) | Ventajas, apuestas y esquina roja | 2026-07-07 |
-| [05 — IELTS](Episodio%2005%20-%20IELTS/) | Bandas del IELTS en Latinoamérica | 2026-08-18 |
-| [06 — Castillos](Episodio%2006%20-%20Castillos/) | Patrimonio arquitectónico más visto en Wikipedia | 2026-09-01 |
-| [07](Episodio%2007/) | Próximo viernes (plantilla) | — |
+
+| Episodio                                               | Tema                                             | TidyTuesday |
+| ------------------------------------------------------ | ------------------------------------------------ | ----------- |
+| [03 - UFC](Episodio%2003%20-%20UFC/)                   | Ventajas, apuestas y esquina roja                | 2026-07-07  |
+| [05 - IELTS](Episodio%2005%20-%20IELTS/)               | Bandas del IELTS en Latinoamérica                | 2026-08-18  |
+| [06 - Castillos](Episodio%2006%20-%20Castillos/)       | Patrimonio arquitectónico más visto en Wikipedia | 2026-09-01  |
+| [07 - Capuccino Index](Episodio%2007%20-%20Capuccino/) | Índice Cappuccino                                | 2026-09-08  |
+
+
+
 
 ## Cómo correr un episodio
 
@@ -29,7 +33,7 @@ O en la terminal:
 Rscript main.R
 ```
 
-Los episodios 03–06 instalan paquetes que falten con `install.packages()`. A partir del 07 se usa [`renv`](https://rstudio.github.io/renv/): `renv::restore()` y no hay instalación automática al correr `main.R`.
+Los episodios 03–06 instalan paquetes que falten con `install.packages()`. A partir del 07 se usa `[renv](https://rstudio.github.io/renv/)`: `renv::restore()` y no hay instalación automática al correr `main.R`.
 
 ## Estructura de cada episodio
 
@@ -48,6 +52,8 @@ src/
 - El flujo del análisis vive en `main.R`.
 - Las figuras se escriben en `output/` y no se versionan.
 
+
+
 ## Tipografías
 
-Fraunces, Inter y JetBrains Mono (Google Fonts) están en [`fonts/`](fonts/). Los episodios 05 y 06 las buscan en la carpeta del episodio, luego en `../fonts/`. El 07 solo usa `fonts/` en la raíz.
+Fraunces, Inter y JetBrains Mono (Google Fonts) están en `[fonts/](fonts/)`. Los episodios 05 y 06 las buscan en la carpeta del episodio, luego en `../fonts/`. El 07 solo usa `fonts/` en la raíz.
