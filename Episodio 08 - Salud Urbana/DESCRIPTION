@@ -1,0 +1,17 @@
+Package: episodio08
+Type: Project
+Title: Viernes de Visualizaciones — Episodio 08
+Version: 0.0.0.9000
+Description: Hospitales y farmacias en centros urbanos del mundo (GHS-UCDB R2024A / TidyTuesday). Los paquetes se restauran con renv.
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    ggtext,
+    maps,
+    patchwork,
+    ragg,
+    scales,
+    svglite,
+    systemfonts,
+    tidytuesdayR,
+    tidyverse
