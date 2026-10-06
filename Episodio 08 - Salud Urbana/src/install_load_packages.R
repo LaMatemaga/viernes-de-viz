@@ -12,7 +12,6 @@ packages <- c(
   "scales",
   "ragg",
   "svglite",
-  "maps",
   "systemfonts",
   "patchwork",
   "ggtext"
