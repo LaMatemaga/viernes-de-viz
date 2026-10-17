@@ -1,0 +1,16 @@
+Package: episodio09
+Type: Project
+Title: Viernes de Visualizaciones — Episodio 09
+Version: 0.0.0.9000
+Description: Ranas y sapos del mundo (AmphibiaWeb / TidyTuesday). Los paquetes se restauran con renv.
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    ggtext,
+    patchwork,
+    ragg,
+    scales,
+    svglite,
+    systemfonts,
+    tidytuesdayR,
+    tidyverse
