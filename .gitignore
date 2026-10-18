@@ -43,3 +43,6 @@ UNAM-analysis/
 # Próximos episodios
 # Episodio 09/
 .Rproj.user
+
+# Datos externos descargados al ejecutar el episodio 09
+Episodio 09 - Anfibios/data/

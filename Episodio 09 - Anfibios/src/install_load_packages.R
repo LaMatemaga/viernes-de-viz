@@ -14,7 +14,10 @@ packages <- c(
   "svglite",
   "systemfonts",
   "patchwork",
-  "ggtext"
+  "ggtext",
+  "ape",
+  "ggtree",
+  "ggtreeExtra"
 )
 
 missing <- setdiff(packages, rownames(installed.packages()))

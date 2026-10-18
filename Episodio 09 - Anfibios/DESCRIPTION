@@ -5,7 +5,10 @@ Version: 0.0.0.9000
 Description: Ranas y sapos del mundo (AmphibiaWeb / TidyTuesday). Los paquetes se restauran con renv.
 Encoding: UTF-8
 Imports:
+    ape,
     ggplot2,
+    ggtree,
+    ggtreeExtra,
     ggtext,
     patchwork,
     ragg,
