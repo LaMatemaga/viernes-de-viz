@@ -1,0 +1,16 @@
+Package: episodio10
+Type: Project
+Title: Viernes de Visualizaciones — Episodio 10
+Version: 0.0.0.9000
+Description: Carreras universitarias, salarios de entrada y exposición a la IA (College Scorecard / AIOE, TidyTuesday). Los paquetes se restauran con renv.
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    ggtext,
+    patchwork,
+    ragg,
+    scales,
+    svglite,
+    systemfonts,
+    tidytuesdayR,
+    tidyverse

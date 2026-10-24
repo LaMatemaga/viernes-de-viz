@@ -15,6 +15,7 @@ Cada carpeta `Episodio …` es un proyecto de R independiente. Corre el script d
 | [07 - Capuccino Index](Episodio%2007%20-%20Capuccino/) | Índice Cappuccino                                | 2026-09-08  |
 | [08 - Salud Urbana](Episodio%2008%20-%20Salud%20Urbana/) | Hospitales y farmacias en centros urbanos      | 2026-09-29  |
 | [09 - Anfibios](Episodio%2009%20-%20Anfibios/)         | Ranas y sapos de AmphibiaWeb                     | 2026-10-13  |
+| [10 - Profesiones](Episodio%2010%20-%20Profesiones/)   | Carreras, salarios de entrada y exposición a la IA | 2026-10-20  |
 
 
 
